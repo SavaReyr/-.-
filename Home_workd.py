@@ -1,3 +1,4 @@
+#Домашнее задание к лекции «Объекты и классы. Инкапсуляция, наследование и полиморфизм»
 class Student:
     def __init__(self, name, surname, gender):
         self.name = name
@@ -121,7 +122,7 @@ best_reviewer.rate_hw(best_student, 'Python', 10)
 best_reviewer.rate_hw(best_student2, 'Python', 6) 
 best_reviewer.rate_hw(best_student2, 'Python', 10) 
 best_reviewer.rate_hw(best_student2, 'Python', 10) 
-#проверка правельности вывода информации об объектах класса
+#проверка правильности вывода информации об объектах класса
 print(best_student.grades)
 print(good_lecturer)
 print(best_student)
